@@ -7,16 +7,16 @@ import logo from "../../Assets/icon-offer-box.png";
 
 const data = [
   {
-    title: "Maneja tu ansiedad",
-    text: "Programa de 6 semanas para aprender a gestionar ansiedad física, mental y emocional.",
+    title: "TITLE OR HEADING WILL GO HERE 1",
+    text: "Im baby portland put a bird on it blog letterpress bitters yuccie. Im baby portland put a bird on it blog letterpress bitters yuccie.",
   },
   {
-    title: "Orientación vocacional",
-    text: "Aplicación de test y entrevista vocacional para definir tu carrera.",
+    title: "TITLE OR HEADING WILL GO HERE 2",
+    text: "Im baby portland put a bird on it blog letterpress bitters yuccie. Im baby portland put a bird on it blog letterpress bitters yuccie.",
   },
   {
-    title: "Sesión individual",
-    text: "Sesión de 60 minutos de psicoterapia online.",
+    title: "TITLE OR HEADING WILL GO HERE 3",
+    text: "Im baby portland put a bird on it blog letterpress bitters yuccie. Im baby portland put a bird on it blog letterpress bitters yuccie.",
   },
 ];
 
@@ -37,8 +37,8 @@ const Offer = () => {
       <div className="top"></div>
       {mobile === false ? (
         <div className="offers-title">
-          <h3>¿Cómo puedo ayudarte?</h3>
-          <h2>Mis propuestas</h2>
+          <h3>Why choose me</h3>
+          <h2>What I offer</h2>
         </div>
       ) : null}
       <Swiper

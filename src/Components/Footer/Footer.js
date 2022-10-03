@@ -69,7 +69,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-bottom-networks">
-          <p>Sigueme</p>
+          <p>Follow me</p>
           <ul>
             <li>
               <a href="https://www.instagram.com/agenciakame/" target='__blank'>
