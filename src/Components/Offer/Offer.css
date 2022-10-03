@@ -38,7 +38,7 @@
   background: #f2f2f2;
   border-radius: 15px;
   padding: 35px;
-  height: 355px;
+  height: 330px;
 }
 .offer-box > div {
   margin: 8px auto;
@@ -61,10 +61,11 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 23px;
-  display: flex;
-  align-items: flex-end;
+  /* display: flex;
+  align-items: flex-end; */
+  /* text-align: center; */
   color: #000000;
-  margin-top: 18px;
+  margin-top: 24px;
 }
 .offer-box > p {
   font-family: "Inter";
@@ -72,24 +73,33 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  display: flex;
-  align-items: flex-end;
+/*   display: flex;
+  align-items: flex-end; */
+  /* text-align: center; */
   color: #000000;
-  margin: 7px 0;
+  margin: 15px 0;
 }
-.offer-box > span {
+.offer-box > button {
+  display: block;
+  margin: 20px 0 42px;
+  /* width: 70px; */
+  width: 120px;
+  height: 35px;
+  background: #f7b633;
+  border: 1px solid #f7b633;
+  border-radius: 7px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 23px;
+  text-transform: capitalize;
   display: flex;
-  align-items: flex-end;
-  color: #f7b633;
-  margin: 19px 0;
-  padding: 2px 0;
-  border-bottom: 1px solid #f7b633;
-  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  /* margin: 0 auto; */
+  cursor: pointer;
 }
 .offer-slider > :nth-child(2) {
   z-index: 10;

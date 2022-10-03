@@ -69,7 +69,7 @@ const Offer = () => {
               </div>
               <h3>{offer.title}</h3>
               <p>{offer.text}</p>
-              <span>Read more</span>
+              <button>Read more</button>
             </SwiperSlide>
           );
         })}
